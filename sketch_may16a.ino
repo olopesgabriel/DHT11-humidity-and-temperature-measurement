@@ -13,7 +13,7 @@ void loop() {
 
   if(analog > 0 && analog < 400){
     Serial.println("solo umido");
-  }
+  }else
   if(analog > 400 && analog < 800){
     Serial.println("moderado");
   }
